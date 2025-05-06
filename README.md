@@ -33,7 +33,7 @@ The process starts once an email containing a loan application is received, and 
 7. **Confirmation Email**: A confirmation email with the Loan ID is sent to the business team to notify them of the successful processing.
 
 ## 🛠️ Technologies Used 
-- **UiPath**: The primary tool used to build and deploy this robotic process automation (RPA) solution.
-- **MS Excel**: Used for reading and updating loan application data.
-- **UI Bank Application**: The banking application where loan details are entered, and loan IDs are generated.
-- **Email Client**: Configured to monitor incoming emails and handle attachments
+1. **UiPath**: The primary tool used to build and deploy this robotic process automation (RPA) solution.
+2. **MS Excel**: Used for reading and updating loan application data.
+3. **UI Bank Application**: The banking application where loan details are entered, and loan IDs are generated.
+4. **Email Client**: Configured to monitor incoming emails and handle attachments
