@@ -3,7 +3,7 @@ This repository houses the Loan Application Automation process designed using Ui
 
 ## 🎬 Demo Video
 Watch the demo video below to see the entire process:
-[Loan Application Automation Demo](https://github.com/Raxeira/loan-application-automation/blob/main/Loan%20Application%20Automation%20-%20Demo.mp4)
+[Loan Application Automation - Demo](https://github.com/Raxeira/loan-application-automation/blob/main/Loan%20Application%20Automation%20-%20Demo.mp4)
 
 ## 🚀 How to Run
 Before running the automation, ensure that you have the following tools and software installed:
