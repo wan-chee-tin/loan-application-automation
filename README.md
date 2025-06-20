@@ -1,14 +1,20 @@
 ## 📖 Project Overview
 This repository houses the Loan Application Automation process designed using UiPath RPA to streamline and automate the loan application process at UiBank. The solution automates several critical steps in the process, which include handling emails, reading loan application data from CSV/Excel files, entering loan details into a banking application, generating unique Loan IDs, and sending confirmation responses to the business team. By leveraging RPA, this automation significantly reduces the manual intervention required, making the entire loan application process faster, more efficient, and error-free.
 
+---
+
 ## 🎬 Demo Video
 Watch the demo video to see the entire process:
 [Loan Application Automation - Demo](https://github.com/Raxeira/loan-application-automation/blob/main/Loan%20Application%20Automation%20-%20Demo.mp4)
 
+---
+
 ## 🚀 How to Run
 Before running the automation, ensure that you have the following tools and software installed:
-1. **UiPath Studio**: The primary tool for creating and executing the RPA workflows. You can download it from the official [UiPath website](https://www.uipath.com/).
-2. **Microsoft Excel**: Used for reading and updating loan application data.
+1. **UiPath Studio** (Community or Enterprise): [Download here](https://www.uipath.com/)
+2. **Microsoft Excel**
+3. **Outlook 365 account** (for email integration via UiPath M365 activities)
+4. **Google Chrome**
 
 To get this project up and running on your local machine, follow these steps:
 1. Download the project as a ZIP file from [this link](https://github.com/Raxeira/loan-application-automation/archive/refs/heads/main.zip).
@@ -22,6 +28,8 @@ To get this project up and running on your local machine, follow these steps:
 - In the Properties panel, modify the email connection settings based on your email provider.
 7. Run the automation in UiPath Studio to process the loan application automatically.
 
+---
+
 ## 🔄 Process Flow 
 The process starts once an email containing a loan application is received, and the automation follows a series of steps:
 1. **Email Reception**: The automation checks for incoming loan application emails.
@@ -31,6 +39,8 @@ The process starts once an email containing a loan application is received, and 
 5. **Loan ID Generation**: Once the data is entered, the system generates a unique Loan ID for the application.
 6. **Excel Update**: The generated Loan ID is saved back into the Excel file for record-keeping.
 7. **Confirmation Email**: A confirmation email with the Loan ID is sent to the business team to notify them of the successful processing.
+
+---
 
 ## 🛠️ Technologies Used 
 1. **UiPath**: The primary tool used to build and deploy this robotic process automation (RPA) solution.
