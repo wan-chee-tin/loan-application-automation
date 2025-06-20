@@ -11,10 +11,10 @@ Watch the demo video to see the entire process:
 
 ## 🚀 How to Run
 Before running the automation, ensure that you have the following tools and software installed:
-1. **UiPath Studio** (Community or Enterprise): [Download here](https://www.uipath.com/)
-2. **Microsoft Excel**
-3. **Outlook 365 account** (for email integration via UiPath M365 activities)
-4. **Google Chrome**
+- [UiPath Studio](https://www.uipath.com/)
+- Microsoft Excel
+- Outlook 365 (email account integration via UiPath M365 activities)
+- Google Chrome
 
 To get this project up and running on your local machine, follow these steps:
 1. Download the project as a ZIP file from [this link](https://github.com/Raxeira/loan-application-automation/archive/refs/heads/main.zip).
@@ -39,11 +39,3 @@ The process starts once an email containing a loan application is received, and 
 5. **Loan ID Generation**: Once the data is entered, the system generates a unique Loan ID for the application.
 6. **Excel Update**: The generated Loan ID is saved back into the Excel file for record-keeping.
 7. **Confirmation Email**: A confirmation email with the Loan ID is sent to the business team to notify them of the successful processing.
-
----
-
-## 🛠️ Technologies Used 
-1. **UiPath**: The primary tool used to build and deploy this robotic process automation (RPA) solution.
-2. **MS Excel**: Used for reading and updating loan application data.
-3. **UI Bank Application**: The banking application where loan details are entered, and loan IDs are generated.
-4. **Email Client**: Configured to monitor incoming emails and handle attachments
