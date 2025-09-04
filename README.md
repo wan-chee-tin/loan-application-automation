@@ -9,12 +9,33 @@ Watch the demo video to see the entire process:
 
 ---
 
-## 🔄 Process Flow 
-The process starts once an email containing a loan application is received, and the automation follows a series of steps:
-1. **Email Reception**: The automation checks for incoming loan application emails.
-2. **Attachment Download**: The loan application file (usually in CSV or Excel format) is downloaded from the email.
-3. **Data Extraction**: The data from the downloaded file is extracted and validated for completeness and correctness.
-4. **Data Entry into UI Bank**: Extracted data is entered into the UI Bank application for processing.
-5. **Loan ID Generation**: Once the data is entered, the system generates a unique Loan ID for the application.
-6. **Excel Update**: The generated Loan ID is saved back into the Excel file for record-keeping.
-7. **Confirmation Email**: A confirmation email with the Loan ID is sent to the business team to notify them of the successful processing.
+### ⚙️ Tech Stack / Tools Used  
+- **UiPath Studio & Orchestrator (REFramework)**  
+- **MS Outlook 365** – Receiving loan request emails  
+- **MS Excel** – Reading CSV attachments  
+- **Google Chrome** – Interacting with UiBank loan portal
+
+---
+
+### 🔄 Workflow Summary  
+1. **Email Intake** → Bot monitors loan request emails in Outlook.  
+2. **Data Extraction** → Downloads CSV attachment and reads applicant details.  
+3. **Loan Entry** → Opens UiBank web portal and enters loan details.  
+4. **Loan ID Generation** → System generates unique Loan ID.  
+5. **Confirmation** → Updates Excel with Loan ID and sends confirmation email back to business unit.  
+
+---
+
+### 📊 Business Impact / Results  
+- **Before Automation**: ~15 minutes per application handled manually:contentReference[oaicite:1]{index=1}  
+- **After Automation**: Cut down to ~2–3 minutes per application  
+- **Weekly Volume**: Handles 100–300 applications seamlessly  
+- **Error Handling**: Built-in exception handling for missing attachments, invalid files, and portal unavailability  
+
+---
+
+## 👤 Author  
+**Wan Chee Tin**  
+💼 RPA Developer | Automation & Analytics Enthusiast  
+📧 [kwct.1997@outlook.com](mailto:kwct.1997@outlook.com)  
+🌐 [LinkedIn](https://linkedin.com/) | [GitHub](https://github.com/)  
