@@ -5,7 +5,7 @@ This repository houses the Loan Application Automation process designed using Ui
 
 ## 🎬 Demo Video
 Watch the demo video to see the entire process:
-[Loan Application Automation - Demo](https://github.com/Raxeira/loan-application-automation/blob/main/Loan%20Application%20Automation%20-%20Demo.mp4)
+[Loan Application Automation - Demo](https://github.com/wan-chee-tin/loan-application-automation/blob/main/Loan%20Application%20Automation%20-%20Demo.mp4)
 
 ---
 
@@ -27,7 +27,7 @@ Watch the demo video to see the entire process:
 ---
 
 ### 📊 Business Impact / Results  
-- **Before Automation**: ~15 minutes per application handled manually:contentReference[oaicite:1]{index=1}  
+- **Before Automation**: ~15 minutes per application handled manually 
 - **After Automation**: Cut down to ~2–3 minutes per application  
 - **Weekly Volume**: Handles 100–300 applications seamlessly  
 - **Error Handling**: Built-in exception handling for missing attachments, invalid files, and portal unavailability  
