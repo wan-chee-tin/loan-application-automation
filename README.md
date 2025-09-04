@@ -5,7 +5,7 @@ This repository houses the Loan Application Automation process designed using Ui
 
 ## 🎬 Demo Video
 Watch the demo video to see the entire process:
-[Loan Application Automation - Demo](https://github.com/wan-chee-tin/loan-application-automation/blob/main/Loan%20Application%20Automation%20-%20Demo.mp4)
+[Loan Application Automation - Demo](https://youtu.be/kOOTF1ZO3E0)
 
 ---
 
