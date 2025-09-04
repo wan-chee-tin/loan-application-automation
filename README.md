@@ -4,8 +4,7 @@ This repository houses the Loan Application Automation process designed using Ui
 ---
 
 ## 🎬 Demo Video
-Watch the demo video to see the entire process:
-[Loan Application Automation (UiPath)](https://youtu.be/kOOTF1ZO3E0)
+Watch the demo video to see the entire process: https://youtu.be/59ZYeYOBXks
 
 ---
 
