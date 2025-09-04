@@ -9,27 +9,6 @@ Watch the demo video to see the entire process:
 
 ---
 
-## 🚀 How to Run
-Before running the automation, ensure that you have the following tools and software installed:
-- [UiPath Studio](https://www.uipath.com/)
-- Microsoft Excel
-- Outlook 365 (email account integration via UiPath M365 activities)
-- Google Chrome
-
-To get this project up and running on your local machine, follow these steps:
-1. Download the project as a ZIP file from [this link](https://github.com/Raxeira/loan-application-automation/archive/refs/heads/main.zip).
-2. Unzip the downloaded file to a directory of your choice.
-4. Navigate to the `Loan Processing Automation/Data` folder and open the `Config.xlsx` file. This file contains configuration settings required for the automation to run.
-5. Open the project in UiPath Studio.
-6. Once you've opened the project in UiPath Studio, navigate through the following steps to configure your email authentication:
-- Locate the search bar at the top of the UiPath Studio.
-- Type the email activity you need to configure `Get Email List`, `Download Attachment`, and `Send Email`.
-- Click on the activity in the search results to navigate to it within the workflow.
-- In the Properties panel, modify the email connection settings based on your email provider.
-7. Run the automation in UiPath Studio to process the loan application automatically.
-
----
-
 ## 🔄 Process Flow 
 The process starts once an email containing a loan application is received, and the automation follows a series of steps:
 1. **Email Reception**: The automation checks for incoming loan application emails.
